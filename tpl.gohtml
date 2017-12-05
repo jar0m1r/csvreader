@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>functions</title>
+</head>
+<body>
+
+{{range .}}
+
+{{fdateMDY .Date}}
+{{ftoInt .Open}}
+{{ftoInt .High}}
+{{ftoInt .Low}}
+{{ftoInt .Close}}
+{{ftoInt .Volume}}
+{{ftoInt .AdjClose}}
+<br/>
+{{end}}
+
+</body>
+</html>
